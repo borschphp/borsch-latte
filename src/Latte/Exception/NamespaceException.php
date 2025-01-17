@@ -1,8 +1,10 @@
 <?php
 
-namespace Exception;
+namespace Borsch\Latte\Exception;
 
-class NamespaceException extends \Exception
+use Exception;
+
+class NamespaceException extends Exception
 {
 
     public static function invalidNamespaceTemplate(string $namespace_template): self

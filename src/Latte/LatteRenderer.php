@@ -1,7 +1,9 @@
 <?php
 
+namespace Borsch\Latte;
+
 use Borsch\Template\AbstractTemplateRenderer;
-use Exception\NamespaceException;
+use Borsch\Latte\Exception\NamespaceException;
 use Latte\Engine;
 use Latte\Loaders\FileLoader;
 
